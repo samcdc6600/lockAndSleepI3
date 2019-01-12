@@ -1,0 +1,4 @@
+#!/bin/sh
+i3lock -i /usr/home/cyan/.config/sleep/images/$1.png && echo mem > /sys/power/state
+acpiconf -s 3
+

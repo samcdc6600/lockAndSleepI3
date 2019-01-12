@@ -1,0 +1,6 @@
+#include <cstdlib>
+
+int main(void)
+{
+  system("/usr/home/cyan/.config/sleep/lock_sleep.sh");
+}
